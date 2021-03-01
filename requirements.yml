@@ -13,4 +13,4 @@ dependencies:
   - cartopy
   - bokeh
   - scikit-learn
-  
+  - jupyterlab
