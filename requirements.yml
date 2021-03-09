@@ -18,5 +18,7 @@ dependencies:
   - intake
   - intake-esm
   - s3fs
+  - adlfs
+  - gcsfs
   - boto3
   - intake_informaticslab
