@@ -2,6 +2,7 @@ name: pangeo-lectures-env
 channels:
   - defaults
   - conda-forge
+  - informaticslab
 dependencies:
   - python=3.7
   - jupyter
@@ -14,3 +15,10 @@ dependencies:
   - bokeh
   - scikit-learn
   - jupyterlab
+  - intake
+  - intake-esm
+  - s3fs
+  - adlfs
+  - gcsfs
+  - boto3
+  - intake_informaticslab
