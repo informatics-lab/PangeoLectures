@@ -1,10 +1,9 @@
 name: pangeo-lectures-env
 channels:
-  - defaults
   - conda-forge
   - informaticslab
 dependencies:
-  - python=3.7
+  - python=3.8
   - jupyter
   - ipywidgets
   - ipykernel
@@ -22,3 +21,4 @@ dependencies:
   - gcsfs
   - boto3
   - intake_informaticslab
+  - awscli
