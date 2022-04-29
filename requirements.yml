@@ -21,3 +21,6 @@ dependencies:
   - boto3
   - awscli
   - cdsapi
+  - graphviz
+  - pip:
+    - azureml-defaults
